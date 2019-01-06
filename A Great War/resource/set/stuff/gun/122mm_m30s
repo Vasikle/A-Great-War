@@ -1,0 +1,11 @@
+{from "pattern gun"     ; "su-122"
+	{filling "bullet122 fg"}
+	{fireSound "gun/howitzer/122mm_d25"}
+	{reloadSound "tankgun_r04"}
+	("range_grazing_howitzer")
+	
+	("caliber_maximum")
+	
+	{range 130 140}
+	("accuracy_minimum")
+}

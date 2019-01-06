@@ -1,0 +1,31 @@
+{from "pattern fg"
+	{tag "big shell size_maximum fg bomb itemin2hands no_ricochet"}
+	{inventory
+		{size 6 3}
+		{weight 150}
+	}	
+	{mass 1500}
+	{entity "shell_ap_600"}
+	{view "shell_ap_600"
+		{tail "rocket_smoke_st" "tail"}
+	}
+	{damage blastwave	; anti-tank
+		{energy 90}
+		{area 5 7}
+	}
+	{damage add blastwave	; anti-building
+		{energy 25}
+		{area 15 15}
+	}
+	{damage add blastwave	; anti-infantry
+		{energy 4}
+		{area 30 30}
+	}
+	{damage fire
+		{radius 20}
+		{heating 4}
+		{time 4}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+}

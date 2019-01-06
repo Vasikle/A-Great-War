@@ -1,0 +1,10 @@
+{item
+	{tag "itemin2hands"}
+	{entity "b33r"}
+	{inventory
+		{size 3 2 }
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 5}
+}

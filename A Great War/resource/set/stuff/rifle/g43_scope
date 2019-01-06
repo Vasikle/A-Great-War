@@ -1,0 +1,15 @@
+{from "pattern rifle"
+	{tag "autorifle"}
+	{filling "ammo rifle" 10}
+	{entity "g43_scope"}
+	{fireSound "rifle/g43_shot/"}
+	{reloadSound "m1carbine"}
+	
+	{Automatic}
+	{healthDamage 250}
+	{recoveryTime 2.00}
+	{range 75 80}
+	("accuracy_rifle")
+	("speed" s(745))
+	("accuracy_boost")
+}

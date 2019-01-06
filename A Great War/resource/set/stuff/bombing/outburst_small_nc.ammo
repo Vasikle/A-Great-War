@@ -1,0 +1,11 @@
+{from "air_bomb"
+  {tag "-bomb" "-big" "no_crater" "small"}
+  {inventory
+    {noView}
+  }
+  {damage blastwave
+    {energy 5}
+    {area 2 4}
+  }
+  {entity "outburst_small_nc"}
+}

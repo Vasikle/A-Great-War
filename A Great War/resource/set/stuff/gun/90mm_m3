@@ -1,0 +1,17 @@
+{from "pattern gun"		; "m26", "m36"
+	{filling "bullet90"}
+	{fireSound "gun/85to100_cal/90mm_m3"}
+	{reloadSound "tankgun_r02"}
+	{rechargeTime 7}
+	("range_long")
+
+	("speed" s(853))
+	("caliber_large")            
+	{projectileDamage 174}
+	("damage" a(174) b(150) c(124) d(102) e(84))
+	{parameters "apcr"
+        ("damage" a(199) b(170) c(139) d(112) e(89))
+	}
+	
+	("accuracy_high") 
+}

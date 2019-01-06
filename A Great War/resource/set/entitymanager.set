@@ -1,0 +1,46 @@
+{entitymanager
+	{group "dead" actor dead
+		{limit 30}
+		{remove dissolve}
+		{entity "human"}
+	}
+	
+	{group "broken" gameentity
+		{limit 5}
+		{remove dissolve}
+		{DeadVehicles}
+	}	
+
+	{group "piece" gameentity
+		{limit 10}
+		{remove dissolve}
+		{entity "piece_big_steel"}
+		{entity "piece_large_steel"}
+		{entity "piece_medium_steel"}
+	}
+
+	{group "stuff" stuff
+		{limit 100}
+		{remove dissolve}
+		{tag "shell"}
+		{tag "weapon bullet"}
+		{tag "grenade"}
+		{tag "missile"}
+		{tag "sharp_edge"}
+	}
+	
+	{group "equip" stuff
+		{limit 30}
+		{remove dissolve}
+		{tag "field_glass"}
+		{tag "head"}
+		{tag "body"}
+	}
+	
+	{group "shellhole" gameentity
+		{limit 50}
+		{remove instant}
+		{entity "grenade_shellhole"}
+		{entity "grenade_at_shellhole"}
+	}
+}

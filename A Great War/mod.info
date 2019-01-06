@@ -1,0 +1,6 @@
+{Mod
+	{Name "A Great War"}
+	{Desc "A Great War"}
+	{MinGameVersion "3.250"}
+	{MaxGameVersion "3.260"}
+}

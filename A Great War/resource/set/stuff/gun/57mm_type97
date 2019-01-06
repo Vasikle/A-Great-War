@@ -1,0 +1,17 @@
+{from "pattern gun"		; "chi-ha57"
+	{filling "bullet57"}
+	{fireSound "gun/57mm_type97"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 4.5}
+	("range_minimum")
+	
+	("speed" s(700))
+	("caliber_minimum")
+	{projectileDamage 61}
+	("damage" a(61) b(47) c(35) d(28) e(22))
+	{parameters "apcr"
+        ("damage" a(86) b(67) c(50) d(38) e(27))
+	}
+	
+	("accuracy_minimum")
+}

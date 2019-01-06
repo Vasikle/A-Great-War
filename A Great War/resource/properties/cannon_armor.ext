@@ -1,0 +1,147 @@
+;SDL
+{sensor
+	{visor "main"
+		{vision "cannon_main"}
+		{bone "visor"}
+	}
+	{visor "commander"
+		{vision "cannon_crew"}
+		{bone "visor2"}
+	}
+}
+
+(define "armor_cannon"
+	{armor
+		{setting "turret"
+			{thickness %tur}
+			{threshold  {blast {value %t_thr}}}	; 
+			{durability {blast {value %t_dur}}}	; 
+			{volumes "turret*"}
+		}
+		{setting "gun"
+			{thickness %tur}
+			{threshold  {blast {value (* 0.8 %t_thr)}}}	; 
+			{durability {blast {value (* 0.8 %t_dur)}}}	; 
+			{volumes "gun*"}
+		}
+		{setting "shield"
+			{thickness %s}
+			{durability 
+				{blast {value (* %tur 3)}}
+				{pierce {value 999}}
+			}
+			{volumes "shield*"}
+		}
+		{setting "wheel"
+			{thickness %w}
+			{volumes "wheel*"}
+		}
+		{setting "body"
+			{thickness %b}
+			{threshold  {blast {value %t_thr}}}	
+			{durability {blast {value %t_dur}}}	
+			{volumes "body*"}
+		}
+	}
+)
+
+(define "armor_mortar"
+	("armor_cannon" tur(5) t_thr(3) t_dur(8) s(3) b(5) w(10))
+)
+(define "armor_light"
+	("armor_cannon" tur(7) t_thr(3) t_dur(10) s(4) b(10) w(10))
+)
+(define "armor_medium"
+	("armor_cannon" tur(7) t_thr(6) t_dur(15) s(4) b(10) w(14))
+)
+(define "armor_heavy"
+	("armor_cannon" tur(7) t_thr(7) t_dur(20) s(10) b(10) w(14))
+)
+
+
+(define "loco_params"
+	{StopTime	0.2}
+	{BrakeTime	0.7}
+	{TurnRadius	3}
+	{TurnStart	0.8}
+	{TurnStop	0.5}
+	{Gears		0.35 0.5 0.7 1.0}
+	{RearGears	0.33 0.5}
+)
+
+
+(define "loco_carrier"
+	{locomotion
+		("loco_params")
+		{MaxSpeed	15}
+		{StartTime	1}
+		{TurnTime	2}
+		{TurnRadius	2}
+	}
+)
+
+(define "loco_carrier_big"
+	{locomotion
+		("loco_params")
+		{MaxSpeed	6}
+		{StartTime	2}
+		{TurnTime	6}
+		{TurnRadius	2}
+	}
+)
+
+(define "loco_small"
+	{locomotion
+		("loco_params")
+		{MaxSlope   50}
+		{FallSlope  60}
+		{MaxSpeed	12}
+		{StartTime	2}
+		{TurnTime	4}
+		{TurnRadius	2}
+	}
+)
+
+(define "loco_medium"
+	{locomotion
+		("loco_params")
+		{FallSlope  60}
+		{MaxSpeed	10}
+		{StartTime	3}
+		{TurnTime	10}
+		{TurnRadius	3}
+	}
+)
+
+(define "loco_massive"
+	{locomotion
+		("loco_params")
+		{FallSlope  60}
+		{MaxSpeed	8}
+		{StartTime	4}
+		{TurnTime	10}
+		{TurnRadius	3}
+	}
+)
+
+(define "loco_big"
+	{locomotion
+		("loco_params")
+		{FallSlope  60}
+		{MaxSpeed	6}
+		{StartTime	5}
+		{TurnTime	20}
+		{TurnRadius	3}
+	}
+)
+
+(define "loco_verybig"
+	{locomotion
+		("loco_params")
+		{FallSlope  60}
+		{MaxSpeed	3}
+		{StartTime	5}
+		{TurnTime	25}
+		{TurnRadius	3}
+	}
+)

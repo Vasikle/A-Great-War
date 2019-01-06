@@ -1,0 +1,10 @@
+{from "air_bomb"
+	{inventory
+		{noView}
+	}
+	{damage blastwave
+		{energy 15}
+		{area 5 12}
+	}
+	{entity "artillery_explosion"}
+}

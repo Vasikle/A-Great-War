@@ -1,0 +1,18 @@
+{item
+	{tag "itemin2hands dropboxed"}
+	{entity "mine_antitank"}
+	{inventory
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 8}
+
+	{damage blastwave
+		{energy 6.1}
+		{area 0.5 0.51}
+	}
+	{damage add blastwave
+		{energy 1}
+		{area 3 6}
+	}
+}

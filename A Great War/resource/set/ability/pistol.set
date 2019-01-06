@@ -1,0 +1,4 @@
+{"pistol" from weapon
+	{item "pistol"}
+	(include "ability_generic.inc")
+}

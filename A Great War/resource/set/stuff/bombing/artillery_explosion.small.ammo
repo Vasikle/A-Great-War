@@ -1,0 +1,11 @@
+{from "air_bomb"
+	{tag "-bomb" "-big" "small"}
+	{inventory
+		{noView}
+	}
+	{damage blastwave
+		{energy 3}
+		{area 1 2}
+	}
+	{entity "artillery_explosion_small"}
+}

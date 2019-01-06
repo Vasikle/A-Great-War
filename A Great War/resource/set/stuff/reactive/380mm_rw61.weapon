@@ -1,0 +1,20 @@
+{weapon_bullet
+	{tag "mrl gun"}
+	{filling "ammo sturmtiger" 1}
+;	{fillingVisible "rocket"}
+
+	{fireSound "reactive/katyusha_burst"}
+	{foresight "foresight"}
+	{spreading 5}            
+	{ZeroingAccuracy 0.85 0.75 0.65}
+
+	{range 120 130}
+	{gravity 1.1}
+	{rechargeTime 90}
+	{RelaxationTime 1.5}
+
+	{speed 50}
+	{AimingTolerance 0.1}
+	{cursor "cannon_on"}
+	{cursorReloading "cannon_reload"}
+}

@@ -1,0 +1,11 @@
+{weapon_bullet
+	{tag "gun"}
+	{filling "ammo katusha" 16}
+	{fireSound "reactive/katyusha_burst"}
+	("heavy_artillery")
+
+	{recoveryTime 0.35}
+	{aimtype direct}
+	{gravity 4.5}
+	{burst {min 8} {noaiming}}
+}

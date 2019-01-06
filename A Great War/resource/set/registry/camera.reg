@@ -1,0 +1,13 @@
+{camera
+	{perspective
+		{viewAngle		23}
+		{distance		1600}
+		{fov			65}
+	}
+    {parallel
+		{viewAngle		90}
+		{distance		2000}
+		{fov			0}
+		{centered		1}
+	}
+}

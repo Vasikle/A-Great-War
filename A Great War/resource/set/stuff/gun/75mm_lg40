@@ -1,0 +1,18 @@
+{from "pattern gun"     ; "LG40"
+	{filling "bullet75"}
+	{fireSound "gun/50to76_cal/75mm_pak40"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 6}
+	("range_short")  
+	
+	("speed" s(740))
+	("caliber_medium")
+	{projectileDamage 114}
+	("damage" a(114) b(105) c(94) d(83) e(73))
+	{parameters "apcr"
+        ("damage" a(139) b(125) c(109) d(93) e(78))
+	}
+	
+	("accuracy_low")
+}
+

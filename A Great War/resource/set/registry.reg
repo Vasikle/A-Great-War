@@ -1,0 +1,23 @@
+; SDL
+{registry
+	;{language "eng"}
+	;{languageswitcher
+	;	{"00000409"		"interface/langswitcheng"}
+	;	{"00000419"		"interface/langswitchrus"}
+	;}
+	(include "registry/resource_syncer.reg")
+	(include "registry/unit.reg")
+	(include "registry/camera.reg")
+	(include "registry/editor.reg")
+	(include "registry/obstacles.reg")
+	(include "registry/command.reg")
+	(include "registry/hitpoints.reg")
+	(include "registry/steam.reg")
+	
+	{common_textures "/texture/common/"}
+
+	{interfaceskin
+		(include "registry/default_skin.reg")
+		(include "registry/main_menu_skin.reg")
+	}
+}

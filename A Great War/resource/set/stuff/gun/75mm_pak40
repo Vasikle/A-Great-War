@@ -1,0 +1,4 @@
+{from "75mm_pak39"		; "pak40"
+	{fireSound "gun/50to76_cal/75mm_pak40"}
+}
+

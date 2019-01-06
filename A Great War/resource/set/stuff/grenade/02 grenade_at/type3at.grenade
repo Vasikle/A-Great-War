@@ -1,0 +1,23 @@
+{from "pattern throwable"
+	{tag "ap big cumulative"}
+	{special
+		{PrepareTime 4.5}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	{inventory {size 2 2}}
+	{entity "grenade_type3at"}
+	{throw
+		{range 10}
+		{startAngle 40}		
+	}
+	{damage blastwave
+		{energy 16} ; kg
+		{area 1 1.5} ; m
+	}
+	{damage add blastwave
+		{energy 1} ; kg
+		{area 8 12} ; m
+	}
+	{possibleDamageRadius 5}
+}

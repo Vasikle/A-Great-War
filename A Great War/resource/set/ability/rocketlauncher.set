@@ -1,0 +1,88 @@
+{"rocketlauncher" from weapon
+    {item "rocketlauncher"}	
+    {level "lvl_1"
+        {stand
+            {accuracy 0.80}
+        }
+        {squat
+            {accuracy 1.00}
+        }
+		{crawl
+			{accuracy 1.20}
+		}
+        {cover
+            {accuracy 1.40}
+        }
+		{vehicle
+			{accuracy 1.90}
+		}
+    }
+    {level "lvl_2"
+        {stand
+            {accuracy 1.05}
+        }
+        {squat
+            {accuracy 1.25}
+        }
+		{crawl
+			{accuracy 1.45}
+		}
+        {cover
+            {accuracy 1.65}
+        }
+		{vehicle
+			{accuracy 2.15}
+		}
+    }
+    {level "lvl_3"
+        {stand
+            {accuracy 1.30}
+        }
+        {squat
+            {accuracy 1.50}
+        }
+		{crawl
+			{accuracy 1.70}
+		}
+        {cover
+            {accuracy 1.90}
+        }
+		{vehicle
+			{accuracy 2.40}
+		}
+    }
+    {level "lvl_4"
+        {stand
+            {accuracy 1.55}
+        }
+        {squat
+            {accuracy 1.75}
+        }
+		{crawl
+			{accuracy 1.95}
+		}
+        {cover
+            {accuracy 2.15}
+        }
+		{vehicle
+			{accuracy 2.65}
+		}
+    }
+    {level "lvl_5"
+        {stand
+            {accuracy 1.60}
+        }
+        {squat
+            {accuracy 1.80}
+        }
+		{crawl
+			{accuracy 2.00}
+		}
+        {cover
+            {accuracy 2.20}
+        }
+		{vehicle
+			{accuracy 2.70}
+		}
+    }
+}

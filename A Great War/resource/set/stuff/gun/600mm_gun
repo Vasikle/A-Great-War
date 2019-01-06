@@ -1,0 +1,44 @@
+{from "pattern gun"		; 	
+	{filling "bullet600"}
+	{fireSound "gun/howitzer/600mm"}
+
+	{spreading	
+		{SpreadPower	10}
+		{SpreadXYRatio	5}
+		{SpreadYadjust	3}
+	}
+	("caliber_howitzer")
+	("range_heavy_howitzer")
+	{rechargeTime 180}
+
+	{DisableRicochet}
+
+	{range 260 280}
+	{aimtype adaptive}
+	{traceFreq 0}
+    	{RelaxationTime 2}
+	{projectileDamage 1000}
+	{speed 200}
+	{gravity 5}
+
+	{bullet_view "shell_ap_600"
+		{tail "shell_tail" "root"}
+	}
+	{damage blastwave	; anti-tank
+		{energy 90}
+		{area 5 7}
+	}
+	{damage add blastwave	; anti-building
+		{energy 25}
+		{area 15 15}
+	}
+	{damage add blastwave	; anti-infantry
+		{energy 4}
+		{area 30 30}
+	}
+	{damage fire
+		{radius 20}
+		{heating 4}
+		{time 4}
+	}
+}

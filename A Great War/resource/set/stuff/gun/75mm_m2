@@ -1,0 +1,8 @@
+{from "pattern gun"		; "lvt4", "m8"
+	{filling "bullet75 fg"}
+	{fireSound "gun/50to76_cal/75mm_m3"}
+	{reloadSound "gun_r00"}
+	("range_light_howitzer")
+
+	("caliber_medium")
+}

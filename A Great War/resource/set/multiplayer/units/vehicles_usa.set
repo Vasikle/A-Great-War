@@ -1,0 +1,93 @@
+;----- USA -----
+
+
+
+
+;°°°Button 1°°°
+
+{"willysmb"         ("vs" c(60) t(all)			s(usa) n(3) g(b1) sc(5.50) b(v1) cw(0) cp(0)) {level 2} {cost 110} {fore 1.0}}
+{"willysat"         ("vs" c(300) t(all) 		s(usa) n(2) g(b2) sc(7.50) b(v1) cw(0) cp(0)) {level 4} {cost 150} {fore 0.5}}
+{"m3_usa"           ("vs" c(300) t(all) 		s(usa) n(2) g(b3) sc(7.50) b(v1) cw(0) cp(0)) {level 6} {cost 150} {fore 0.5}}
+
+{"gmc"   	    	("vs" c(60) t(all supply) 	s(usa) n(2) g(b4) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 1.0}}
+{"gmc_art"          ("vs" c(60) t(all supply) 	s(usa) n(2) g(b5) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1.0}}
+{"gmc_eng"          ("vs" c(60) t(all supply)	s(usa) n(2) g(b6) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 250} {fore 0.0}}
+
+
+
+
+;°°°Button 2°°°
+
+{"browning_stan"    ("vs" c(300) t(all cannon) 	s(usa) n(2) g(c1) sc(5.00) b(v2) cw(2) cp(5)) {level 1} {cost 100} {fore 1.0}}
+{"maxson"           ("vs" c(300) t(all cannon) 	s(usa) n(1) g(c2) sc(7.50) b(v2) cw(2) cp(5)) {level 3} {cost 150} {fore 0.5}}
+{"m1mortar"         ("vs" c(0) t(all cannon mediumcan) 	s(usa) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {level 5} {cost 350} {fore 1.0}}
+
+{"m3cannon"         ("vs" c(0) t(all cannon) 	s(usa) n(2) g(c4) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 135} {fore 1.0}}
+{"m1_57mm"          ("vs" c(0) t(all cannon mediumcan) 	s(usa) n(2) g(c5) sc(11.25) b(v2) cw(2) cp(10)) {level 1} {cost 225} {fore 1.0}}
+{"m5"               ("vs" c(0) t(all cannon heavycan) 	s(usa) n(2) g(c6) sc(21.25) b(v2) cw(2) cp(15)) {level 1} {cost 425} {fore 1.0}}
+
+("how" side(usa) name(how_aa) c(0) c1(gmc_cckw) c2(bofors)  	t(all cannon heavycan heavyaa) g(c7) b(v2) level(3) cost(275) f(1.0))
+("how" side(usa) name(how_b) c(0) c1(gmc_cckw) c2(m2a1l) 		t(all artillery) g(c8) b(v2) level(6) cost(650) f(1.0))
+("how" side(usa) name(how_a) c(0) c1(gmc_cckw) c2(m114)  		t(all artillery heavyart) g(c9) b(v2) level(9) cost(800) f(1.0))
+
+{"m7"               ("v" c(0) t(all artillery) 			s(usa) n1(3) n2(1) g(c10) sc(37.50) b(v2) cw(0) cp(15)) {level 12} {cost 750} {fore 1.0}}
+{"m12gmc"           ("v" c(0) t(all artillery heavyart) s(usa) n1(3) n2(1) g(c11) sc(45.00) b(v2) cw(0) cp(20)) {level 15} {cost 900} {fore 1.0}}
+{"m4a3c"            ("v" c(0) t(all artillery heavyart) s(usa) n1(3) n2(1) g(c12) sc(70.00) b(v2) cw(0) cp(20)) {level 18} {cost 1400} {fore 1.0}}
+
+
+
+
+;°°°Button 3°°°
+
+{"m20"      	    ("v" c(150) t(all light) 		s(usa) n1(1) n2(1) g(d1) sc(9.00) b(v3) cw(0) cp(5)) {level 1} {cost 180} {fore 0.6}}
+{"m16"      	    ("v" c(150) t(all light) 		s(usa) n1(2) n2(1) g(d2) sc(11.25) b(v3) cw(0) cp(5)) {level 5} {cost 225} {fore 0}}
+{"m8grayhound"      ("v" c(150) t(all light) 		s(usa) n1(2) n2(1) g(d3) sc(13.00) b(v3) cw(0) cp(5)) {level 1} {cost 260} {fore 0.4}}	
+
+{"m5a1"             ("v" c(150) t(all light) 		s(usa) n1(3) n2(1) g(d4) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 300} {fore 0}}
+{"m24"              ("v" c(150) t(all light) 		s(usa) n1(3) n2(1) g(d5) sc(19.00) b(v3) cw(0) cp(5)) {level 1} {cost 380} {fore 0}}
+{"m19"              ("v" c(150) t(all medium) 		s(usa) n1(3) n2(1) g(d6) sc(21.25) b(v3) cw(0) cp(15)) {level 10} {cost 425} {fore 0}}
+
+{"m4a3m"            ("v" c(150) t(deminer) 			s(usa) n1(1) n2(1) g(d7) sc(12.50) b(v3) cw(0) cp(0)) {level 1} {cost 250} {fore 0}}
+
+
+
+
+;°°°Button 4°°°
+
+{"grant_m3"         ("v" c(0) t(all medium arcade) 	s(usa) n1(3) n2(1) g(e1) sc(16.50) b(v4) cw(0) cp(15)) {level 1} {cost 330} {fore 1.0}} 
+{"m8"               ("v" c(0) t(all medium) 		s(usa) n1(3) n2(1) g(e2) sc(17.50) b(v4) cw(0) cp(15)) {level 4} {cost 350} {fore 1.0}}
+{"m4a3_75"          ("v" c(0) t(all medium) 		s(usa) n1(4) n2(1) g(e3) sc(22.00) b(v4) cw(0) cp(15)) {level 1} {cost 440} {fore 1.0}} 	
+
+{"m4a3e8"         	("v" c(0) t(all medium) 		s(usa) n1(4) n2(1) g(e4) sc(32.50) b(v4) cw(0) cp(15)) {level 1} {cost 650} {fore 1.0}} 	
+{"m4a3e2_jumbo"     ("v" c(0) t(all heavy) 			s(usa) n1(4) n2(1) g(e5) sc(50.00) b(v4) cw(0) cp(30)) {level 1} {cost 1000} {fore 1.0}} 
+{"m26_pershing"     ("v" c(0) t(all heavy) 			s(usa) n1(4) n2(1) g(e6) sc(70.00) b(v4) cw(0) cp(30)) {level 15} {cost 1400} {fore 1.0}}	
+
+
+
+
+;°°°Button 5°°°
+
+{"m18"              ("v" c(0) t(all medium) 		s(usa) n1(4) n2(1) g(f1) sc(23.75) b(v5) cw(0) cp(10)) {level 1} {cost 475} {fore 1.0}} 	
+{"m10wolverine"     ("v" c(0) t(all medium) 		s(usa) n1(4) n2(1) g(f2) sc(26.25) b(v5) cw(0) cp(15)) {level 1} {cost 525} {fore 1.0}} 	
+{"m36"       		("v" c(0) t(all medium) 		s(usa) n1(4) n2(1) g(f3) sc(32.50) b(v5) cw(0) cp(15)) {level 1} {cost 650} {fore 1.0}} 	
+
+
+
+
+;°°°Button Hero°°°
+
+{"hero1_usa"        ("v0" c(120) c1(m8_howitzer) 	t(all hero) s(usa) n1(elite:2) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
+{"heronew1_usa"     ("i2" c(120)					t(all hero) s(usa) n1(rifle:5) n2(mgun2:1) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
+{"heronew2_usa"     ("i2" c(120)					t(all hero) s(usa) n1(saper2:2) n2(rifle:4) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
+
+{"hero2_usa"        ("i3" c(240)					t(all hero) s(usa) n1(elite4:4) n2(elite5:5) n3(elite6:1) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+{"heronew3_usa"     ("i2" c(240)					t(all hero) s(usa) n1(scout:2) n2(scout2:2) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+{"hero3_usa"        ("v4" c(360) c1(m3_usa) 		t(all hero) s(usa) n1(elite:5) n2(elite2:2) n3(elite3:2) n4(elite_at:1) g(h2) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
+
+{"hero4_usa"        ("v1" c(360) c1(m4a3_zippo) 	t(all hero) s(usa) n1(tankman:4) n2(tankman2:1) g(h3) b(hero)) {level 2} {cost 3.0} {fore -0.5}}
+{"hero5_usa"        ("i2" c(480)					t(all hero) s(usa) n1(radioman:1) n2(smg:2) g(h4) b(hero)) {level 5} {cost 4.0} {fore -0.5}}
+{"hero6_usa"  	    ("v1" c(600) c1(m4a3_105) 		t(all hero) s(usa) n1(tankman:4) n2(tankman2:1) g(h5) b(hero)) {level 10} {cost 5.0} {fore -0.5}}
+
+{"hero7_usa"  	    ("v2" c(720) c1(m4a3e8) 		t(all hero) s(usa) n1(tankman:4) n2(tankman2:1) g(h6) b(hero)) {level 15} {cost 6.0} {fore -0.5}}
+{"hero8_usa"  	    ("v1" c(840) c1(m4a3e2_jumbo_76) t(all hero) s(usa) n1(tankman:4) n2(tankman2:1) g(h7) b(hero)) {level 20} {cost 7.0} {fore -0.5}}
+{"hero9_usa"	    ("v1" c(1200) c1(m26e4)			t(all hero) s(usa) n1(tankman:4) n2(tankman2:1) g(h8) b(hero)) {level 25} {cost 10.0} {fore -0.5}}

@@ -1,0 +1,4 @@
+{from "20mm_oerlikon"	; "crusader_aa2"
+	{filling "bullet20 zenite" 60}	
+	("recoveryTime" r(900))
+}

@@ -1,0 +1,17 @@
+{from "pattern gun"		; "ho-ri"
+	{filling "bullet105"}
+	{fireSound "gun/105mm_type6"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 12}
+	("range_maximum")
+
+	("speed" s(990))
+	("caliber_maximum")
+	{projectileDamage 186}
+	("damage" a(231) b(214) c(191) d(172) e(154))
+	{parameters "apcr"
+        ("damage" a(256) b(234) c(206) d(182) e(159))
+	}
+	
+	("accuracy_medium")
+}

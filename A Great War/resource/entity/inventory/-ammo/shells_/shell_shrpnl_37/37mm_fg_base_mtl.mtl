@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "37mm_shrpnl"}
+	{specular "37mm_shrpnl_sp"}
+	{color "229 229 229 152"}
+	{blend none}
+}
