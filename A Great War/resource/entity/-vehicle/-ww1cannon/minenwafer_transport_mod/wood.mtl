@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "wood11"}
+	{blend test}
+}

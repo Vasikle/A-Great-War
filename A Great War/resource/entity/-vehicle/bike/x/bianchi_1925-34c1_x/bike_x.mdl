@@ -1,0 +1,97 @@
+;Exported by: Chato59
+;Date:        Wed Giu 17 15:44:00 2005
+;File:        D:\-Projects1_5-\-3DWork-\-Model-\Italy\Bike\Bianchi_1912.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-4.93939	-5.109838	11.0629
+			}
+			{VolumeView "body.ply"}
+			{bone revolute "wheel3"
+				{parameters "ID=Wheel3;"}
+				{Position -6.84139	-5.78209	1.153}
+				{VolumeView "wheel3.ply"}
+			}
+			{bone revolute "wheel2"
+				{parameters "ID=Wheel2;"}
+				{Position 4.2215	-5.7821	6.04224}
+				{VolumeView "wheel2.ply"}
+			}
+		}
+		{bone revolute "steer"
+			{parameters "ID=body;"}
+			{Matrix34
+				-0.835325	0	-0.549756
+				0	1	0
+				0.549756	0	-0.835325
+				12.8761		0.37626		11.0629
+			}
+			{VolumeView "steer.ply"}
+			{bone revolute "wheel1"
+				{parameters "ID=Wheel1;"}
+				{Matrix34
+					0.835325	0	-0.549756
+					-0.549756	0	-0.835325
+					0	1	0
+					0.809003	0.0183375	5.60376
+				}
+				{VolumeView "wheel1.ply"}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 28.3974 10.6535 10.4267}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		1.28622	-1.52756	-9.12883
+	}
+}
+{Volume "engine"
+	{Box 11.5218 6.61592 10.5443}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		-5.18132	-3.82666	5.73624
+	}
+}
+{Volume "fuel"
+	{Box 10.0697 5.47182 4.05447}
+	{Bone "body"}
+	{Matrix34
+		-0.993336	0.115259	0
+		0	0	1
+		0.115259	0.993336	0
+		-6.31144	3.88135	5.85563
+	}
+}
+{Volume "wheel1"
+	{Cylinder 7.32283 2.64797}
+	{Bone "wheel1"}
+	{Position 0.0916452	0.309866	0.0626891}
+}
+{Volume "wheel2"
+	{Cylinder 7.28346 2.64797}
+	{Bone "wheel2"}
+	{Position 0.0667763	0.0280821	0.0119202}
+}
+{Volume "wheel3"
+	{Cylinder 7.28346 2.64796}
+	{Bone "wheel3"}
+	{Position -0.0343094	0.0280784	0.00816751}
+}

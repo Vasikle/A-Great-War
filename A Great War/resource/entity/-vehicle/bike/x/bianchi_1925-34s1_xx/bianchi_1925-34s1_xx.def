@@ -1,0 +1,5 @@
+{game_entity
+	(include "/properties/shadow/moto.inc"  scX(0.5) scY(0.6) psfX(-7) psfY(7))
+	{Extension "bike_xx.mdl"}
+		
+}

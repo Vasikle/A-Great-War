@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "granate"}
+	{blend none}
+}

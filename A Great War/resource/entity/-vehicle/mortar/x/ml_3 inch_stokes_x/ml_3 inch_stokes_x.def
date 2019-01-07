@@ -1,0 +1,13 @@
+{game_entity
+	{Extension "ml_3 inch_stokes_x.mdl"}
+	{Volume "body"
+	}
+	{Volume "gun"
+	}
+	{Volume "noga_l"
+	}
+	{Volume "noga_r"
+	}
+	{Volume "stan"
+	}
+}

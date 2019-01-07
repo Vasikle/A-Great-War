@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "junovicza"}
+	{bump "junovicza_bp"}
+	{specular "junovicza_np"}
+	{color "255 255 255 25"}
+	{blend none}
+}

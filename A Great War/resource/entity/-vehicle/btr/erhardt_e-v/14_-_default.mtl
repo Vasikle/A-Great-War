@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "texturez_metal_1233"}
+	{blend none}
+}

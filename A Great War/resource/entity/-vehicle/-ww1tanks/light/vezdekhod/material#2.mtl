@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "wheel_vezdok"}
+	{bump "wheel_vezdok_nm"}
+	{specular "pz4_sp"}
+	{color "255 255 255 25"}
+	{blend blend}
+}

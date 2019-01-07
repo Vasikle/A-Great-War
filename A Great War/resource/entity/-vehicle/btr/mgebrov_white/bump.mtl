@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "turrets_body"}
+	{bump "turrets_body_nm"}
+	{specular "turrets_body_sp"}
+	{color "255 255 255 25"}
+	{blend none}
+}

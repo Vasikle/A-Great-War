@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "details3"}
+	{bump "details3_nm"}
+	{specular "details3_sp"}
+	{color "255 255 255 25"}
+	{blend none}
+}

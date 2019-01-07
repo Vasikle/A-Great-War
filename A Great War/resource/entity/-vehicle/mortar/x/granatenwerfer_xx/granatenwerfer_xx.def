@@ -1,0 +1,9 @@
+{game_entity
+	{Extension "granatenwerfer_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "granata"
+	}
+	{Volume "gun"
+	}
+}

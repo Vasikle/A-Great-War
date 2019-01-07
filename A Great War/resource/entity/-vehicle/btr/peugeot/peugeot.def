@@ -1,0 +1,87 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	{Extension "peugeot.mdl"}
+	{props "vehicle" "armored_car" "tank" "turret" "wheeled" "vision_lev02"}
+	{PatherId "vehicle.small"}
+
+	{extender "enumerator"}
+	{extension "crew.ext"}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 8}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 8}
+	}
+	{volume "engine"
+		{thickness 8}
+	}
+	{volume "crew"
+		{able {contact_ground 0}}
+	}
+	{volume "turret"
+		{component "turret"}
+		{tags "turret"}
+		{thickness 8}
+	}
+
+	("armor_medium" args 0.9)
+	
+	{component "turret"
+		{RepairTime 20}
+	}
+
+	{extender "inventory"
+		{Box
+			{item "ammo mgun" 2000}
+			{item "vickers_mgun" filled {user "mgun"}}
+		}
+	}
+	{Weaponry
+		{place "mgun"
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			{weapon "hotchkiss_m1909" filled}
+			{charger "gunner"}
+		}
+	}  	
+	
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("wheel" args "wheelright2")
+	("wheel" args "wheelleft2")
+	
+	{mass 2200}
+	{Chassis
+		{Locomotion ("locomotion")
+			{MaxSpeed	50}
+				(mod "mp"
+					{maxspeed   41}
+				)
+	  		{maxSpeedAtMaxTurn 20}	
+			{StartTime	8}
+			{BrakeTime	1.5}	
+			{StopTime	3}
+			{TurnRadius	4}
+			{RearGears 0.25}
+
+		}
+		{FuelBag
+			{volume 55 }	
+			{rate	10 }   
+			{remain 50 }
+			{fuel "fuel"}
+		}
+		(mod "mp"
+		    {speed
+        		{Normal  15}
+    		}
+		)
+		("car_trace" fx("tracewheel04") step(0.08) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("car_trace" fx("tracewheel04") step(0.08) wheell("wlr") wheelr("wrr") bonel("FXtraceL2") boner("FXtraceR2"))
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "schwrlz"}
+	{bump "schwrlz_nm"}
+	{specular "schwrlz_sp"}
+	{color "255 255 255 25"}
+	{blend none}
+}

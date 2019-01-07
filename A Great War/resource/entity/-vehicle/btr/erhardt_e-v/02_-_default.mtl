@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "erhardt"}
+	{specular "erhardt"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,57 @@
+;Exported by: mark
+;Date:        Sun May 30 18:59:57 2010
+;File:        E:\Documents and Settings\mark\My Documents\3dsmax\scenes\granatewerfer.max
+{Skeleton
+	{bone revolute "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-2.40137	-5.12371	2.45281
+			}
+			{VolumeView "body.ply"}
+			{bone "gun"
+				{parameters "ID=gun;"}
+				{Position 0	0	0}
+				{VolumeView "gun.ply"}
+				{bone "granata"
+					{Matrix34
+						0.965926	0.258819	0
+						-0.258819	0.965926	0
+						0	0	1
+						3.29461	-13.101	3.70745
+					}
+					{VolumeView "granata.ply"}
+				}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 13.6294 8.92384 2.90473}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		3.64975	1.00044	4.79422
+	}
+}
+{Volume "gun"
+	{Cylinder 0.76465 12.0545}
+	{Bone "gun"}
+	{Matrix34
+		1.65701	0.258819	0
+		0	0	1.71547
+		0.443996	-0.965926	0
+		1.35089	-6.4757	4.36569
+	}
+}
+
